@@ -1,0 +1,592 @@
+/* First background layer (bottom layer) */
+body {
+    background-color: rgba(0, 100, 100, 0.5); 
+    background-image: url('../img/background.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+/* Wrapper for the entire content and second background layer */
+.wrapper {
+    width: 1030px;
+    margin: auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background-size: 90% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.parallax-section {
+    background-image: url('../img/background.png');
+    background-size:auto;
+    background-attachment: fixed;
+}
+
+/* all of every single section (affects each one, not together as one) */
+section {
+    margin-bottom: 0px;
+}
+
+/* the headers */
+h1 {
+    font-family: 'Charm';
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Charm';
+    font-size: 30px;
+    text-align: center;
+}
+
+/* the paragraphs */
+p {
+    font-family: 'Adelle Sans Devanagari';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* the banner */
+.banner img {
+    width:100%;
+    margin-top:20px;
+    padding: 0px;
+}
+
+.box {
+    display:inline-block;
+    vertical-align: top;
+}
+
+/* the navigation buttons */
+.nav {
+    margin-top:0;
+    margin-bottom: 20px;
+    padding:0;
+    text-align: center;
+}
+
+/* the names of the navigation */
+.nav li {
+    background-color:rgba(207,183,159);
+    font-family: 'Cinzel';
+    color:#1F4E45;
+    font-size:28px;
+    font-weight: none;
+    list-style:none;
+    width:200px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    width:24.7%;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+/* the rollover buttons */
+.nav li:hover {
+    background-color:rgba(255,255,255,0.5);
+    color:black;
+}
+
+/* ABOUT */
+.about-summary-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+}
+
+.about-summary-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+}
+
+.about-text-1 {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.about-images-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-images-1 img{
+    width: 300px; 
+    height: auto; 
+    margin-right: 10px; 
+    margin-bottom: 20px;
+}
+
+.about-text-2 {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.about-images-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-images-2 img{
+    width: 300px; 
+    height: auto; 
+    margin-right: 10px; 
+    margin-bottom: 20px;
+}
+
+.the-team {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-member {
+    text-align: center;
+    margin: 0 10px; /* Adjust spacing between team members */
+}
+
+.team-images {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.team-member img {
+    width: 320px; 
+    height: auto; 
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* PRODUCTS */
+.products-section {
+    margin: 10px;
+}
+
+.product-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+.product-text-1 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Adelle Sans Devanagari';
+}
+
+.product-text-1 li {
+    margin-bottom: 10px;
+}
+
+.product-text-1 button {
+    background-color: #4d7973;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-text-1 button:hover {
+    background-color: #1f4e45;
+}
+
+.product-image-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-1 img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.product-text-2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Adelle Sans Devanagari';
+}
+
+.product-text-2 li {
+    margin-bottom: 10px;
+}
+
+.product-text-2 button {
+    background-color: #4d7973;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-text-2 button:hover {
+    background-color: #1f4e45;
+}
+
+.product-image-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-2 img {
+    max-width: 300px;
+    height: auto; 
+    border-radius: 5px;
+    margin-right: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.product-3 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.product-text-3 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Adelle Sans Devanagari';
+}
+
+.product-text-3 li {
+    margin-bottom: 10px;
+}
+
+.product-text-3 button {
+    background-color: #4d7973;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-text-3 button:hover {
+    background-color: #1f4e45;
+}
+
+.product-image-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-3 img {
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 5px;
+    margin-right: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.product-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+.product-text-4 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Adelle Sans Devanagari';
+}
+
+.product-text-4 li {
+    margin-bottom: 10px;
+}
+
+.product-text-4 button {
+    background-color: #4d7973;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-text-4 button:hover {
+    background-color: #1f4e45;
+}
+
+.product-image-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-4 img {
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 5px;
+    margin-right: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+.product-text-5 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Adelle Sans Devanagari';
+}
+
+.product-text-5 li {
+    margin-bottom: 10px;
+}
+
+.product-text-5 button {
+    background-color: #4d7973;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-text-5 button:hover {
+    background-color: #1f4e45;
+}
+
+.product-image-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-5 img {
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 5px;
+    margin-right: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.product-6 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+.product-text-6 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Adelle Sans Devanagari';
+}
+
+.product-text-6 li {
+    margin-bottom: 10px;
+}
+
+.product-text-6 button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.product-text-6 button:hover {
+    background-color: #1f4e45;
+}
+
+.product-image-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-image-6 img {
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 5px;
+    margin-right: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.product-image-1 img,
+.product-image-2 img,
+.product-image-3 img,
+.product-image-4 img,
+.product-image-5 img,
+.product-image-6 img {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.product-image-1 img.visible,
+.product-image-2 img.visible,
+.product-image-3 img.visible,
+.product-image-4 img.visible,
+.product-image-5 img.visible,
+.product-image-6 img.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* THE CONTACT SECTION*/
+.contact-section {
+    margin: 10px;
+}
+
+/* Form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for form labels */
+.contact-form label {
+    margin-bottom: 10px;
+    font-family: 'Adelle Sans Devanagari';
+    font-size: 20px;
+    font-weight: none;
+}
+
+/* Styling for form inputs and select */
+.contact-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Styling for the "Reason" select */
+.contact-form select {
+    appearance: none; 
+    padding: 10px;
+}
+
+/* Styling for hidden elements (Product ID label and input) */
+.contact-input-label {
+    display: none;
+}
+
+/* Styling for the send button */
+.contact-form button {
+    background-color: #4d7973;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #1f4e45;
+}
+
+/* REFERENCES */
+.references-list {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.references-list li {
+    font-family: 'Adelle Sans Devanagari';
+    background-color: rgba(255,255,255, 0.5); 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.references-list a:visited {
+    color:#1F4E45;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.back-to-top {
+    font-family: 'Adelle Sans Devanagari';
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: #4d7973;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: none; /* initially hide */
+}
+
+.back-to-top:hover {
+    background-color: #1f4e45;
+}
+.sliding-object {
+    display: inline-block;
+    animation: wobble 2s infinite;
+}
+
+/* the css animation - wobble */
+@keyframes wobble {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px) rotate(-5deg);
+    }
+    50% {
+        transform: translateX(10px) rotate(5deg);
+    }
+    75% {
+        transform: translateX(-5px) rotate(-3deg);
+    }
+}
+
+
+
+
